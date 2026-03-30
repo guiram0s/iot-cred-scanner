@@ -1,12 +1,12 @@
-# IoT Credential Brute-Forcer 🔐
+# IoT Credential Brute-Forcer
 
 This project is a lightweight Python tool designed for **ethical hacking** and **penetration testing** of IoT and network devices using **default or weak credentials**. It scans your local network, identifies live hosts, and attempts brute-force logins over HTTP, SSH, and Telnet protocols using a known list of default usernames and passwords.
 
-⚠️ **Educational Use Only**: This tool is for educational and authorized testing purposes only. Never use this tool against systems you do not own or have explicit permission to test.
+ **Educational Use Only**: This tool is for educational and authorized testing purposes only. Never use this tool against systems you do not own or have explicit permission to test.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 project/
@@ -28,7 +28,7 @@ project/
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Network Scanning** (Linux only): Detect live hosts on your subnet.
 - **Port Scanning**: Check for common ports (22, 23, 80, etc.) on discovered devices.
@@ -41,9 +41,9 @@ project/
 
 ---
 
-## ⚙️ Setup
+## Setup
 
-### ✅ Requirements
+### Requirements
 
 - OS: **Linux** (for network scanning via `ip` and `ping`)
 - Python: 3.6+
@@ -51,7 +51,7 @@ project/
   - `requests`
   - `paramiko`
 
-### 📦 Install
+### Install
 
 1. **Clone the repo**:
    ```bash
@@ -71,7 +71,7 @@ project/
 
 ---
 
-## 📘 How It Works
+## How It Works
 
 1. **Discover Devices**: Performs a ping sweep of the local subnet.
 2. **Scan Ports**: Identifies open ports on each host.
@@ -82,7 +82,7 @@ project/
 
 ---
 
-## 🔒 Notes
+## Notes
 
 - **Modular Design**: Each brute-force module is independent and extendable.
 - **Custom Credential Lists**: You can expand `defaults/common_credentials.json` with more usernames/passwords.
@@ -91,7 +91,7 @@ project/
 ---
 
 
-## 🧪 Disclaimer
+## Disclaimer
 
 > This tool is for **educational and ethical use only**. Always ensure you have **explicit permission** before scanning or brute-forcing devices on any network. Unauthorized use of this software may be illegal in your jurisdiction.
 
